@@ -9,9 +9,6 @@ tasks:
       rclone config file
       curl $RCLONE_CONFIG_URL -o /home/gitpod/.config/rclone/rclone.conf
       rclone config
-
-checkoutLocation: /thx
-
 vscode:
   extensions:
     - PKief.material-icon-theme
