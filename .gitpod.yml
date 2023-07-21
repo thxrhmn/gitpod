@@ -1,7 +1,7 @@
 tasks:
   - name: gitpod
     before: |
-          cd ../gitpod
+      cd ../gitpod
     init: |
       chmod +x install.sh
     command: |
