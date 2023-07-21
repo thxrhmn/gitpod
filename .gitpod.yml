@@ -1,0 +1,17 @@
+tasks:
+  - init: |
+      chmod +x install.sh
+  - command: |
+      ./install.sh
+
+vscode:
+  extensions:
+    - ms-azuretools.vscode-docker
+    - golang.go
+    - ms-azuretools.vscode-docker
+    - oderwat.indent-rainbow
+    - PKief.material-icon-theme
+    - zhuangtongfa.material-theme
+    - esbenp.prettier-vscode
+    - ms-python.python
+    - bradlc.vscode-tailwindcss
