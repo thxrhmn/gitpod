@@ -1,15 +1,14 @@
 tasks:
-  - init: |
+  - name: gitpod
+    before: |
+          cd ../gitpod
+    init: |
       chmod +x install.sh
-  - command: |
+    command: |
       ./install.sh
 
 vscode:
   extensions:
-    - ms-azuretools.vscode-docker
-    - golang.go
-    - ms-azuretools.vscode-docker
-    - oderwat.indent-rainbow
     - PKief.material-icon-theme
     - zhuangtongfa.material-theme
     - esbenp.prettier-vscode
