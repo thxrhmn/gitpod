@@ -10,6 +10,7 @@ if [ $(dpkg-query -W -f='${Status}' rclone 2>/dev/null | grep -c "ok installed")
 fi
 
 rclone config file
+
 #download rclone.conf from gitpod .env
 FILE=/home/gitpod/.config/rclone/rclone.conf
 if [ -f "$FILE" ]; then  
