@@ -3,7 +3,7 @@ tasks:
     before: |
       cd ../gitpod
     init: |
-      chmod +x install.sh
+      chmod +x install.sh autopush.sh
     command: |
       ./install.sh
 vscode:
