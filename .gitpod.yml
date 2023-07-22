@@ -6,9 +6,6 @@ tasks:
       chmod +x install.sh
     command: |
       ./install.sh
-      rclone config file
-      curl $RCLONE_CONFIG_URL -o /home/gitpod/.config/rclone/rclone.conf
-      rclone config
 vscode:
   extensions:
     - PKief.material-icon-theme
